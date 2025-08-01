@@ -1,0 +1,374 @@
+@font-face {
+    font-family:'kofiarabic';
+    src: url('./NotoKofiArabic-Regular.ttf/') format('truetype');
+
+    font-weight: normal;
+  }
+
+body {
+    direction: rtl;
+    font-family:'Noto kufi Arabic',sans-serif;
+    text-align: center;
+    justify-content: center;
+}
+.nav {
+    width: 100%;
+    height: 80px;
+    background-color: #3f3e3e;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 20px;
+    z-index: 9999;
+}
+.cont {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+  
+}
+.left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.right {
+   
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.right img {
+    height: 50px;
+
+}
+i {
+    color: white;
+}
+.cont button {
+    padding: 10px 15px;
+    border: 1px solid white;
+    background-color: #615f5f00;
+    color: white;
+    
+}
+.cont a :hover {
+    background-color: rgba(240, 248, 255, 0.441);
+}
+.op {
+    padding: 90px;
+    height: 550px;
+    background-image: url(./img/IMG-20250618-WA0281.jpg);
+    background-size: cover;
+
+}
+.div1 {
+    padding: 80px;
+   text-align: center;
+}
+.search {
+    width: 100%;
+    display: flex;
+    justify-content: center ;
+    align-items: center ;
+    margin-bottom: 30px;
+   
+  }
+  .sea {
+    width: 500px;
+    position:relative;
+    margin: 0 auto;
+    background-color: aquamarine;
+  }
+  input {
+    padding: 20px 20px 24px 80px;
+    width: 100%;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .o {
+    position:absolute;
+    top: 50%;
+    left: -91px;
+    transform: translateY(-50%);
+    background-color: #4caf50 !important ;
+    color: white !important;
+    padding: 8px 18px;
+    font-size: 14px;
+   transition:background-color 0.3s ease;
+   cursor: pointer;
+   border: 1px solid  #4caf50 ;
+   height: 50px;
+   width: 60px;
+   
+   }
+  
+   
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.boxes button {
+    padding: 7px 10px;
+    border: 1px solid white;
+    background-color: white;
+    color: rgb(68, 68, 68);
+    font-size: medium;
+    
+}
+.boxes a :hover {
+    background-color: #4caf50 ;
+}
+.io {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;
+    margin-bottom: 80px;
+  
+}
+.con {
+    width: 85%;
+    text-align: center;
+   
+}
+.av{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.sf {
+    width: 23%;
+    height: 150px;
+    margin: 10px;
+    position: relative;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sf img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    filter: brightness(60%);
+
+}
+.sf p {
+    font-size: 130%;
+}
+.ty {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;
+    background-color: #f5f5f5;
+    margin-bottom: 50px;
+    padding-bottom: 70px;
+}
+.conta {
+    width: 85%;
+    text-align: center;
+}
+.lm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.xz {
+    width: 23%;
+    height: 80px;
+    margin: 10px;
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+.xz img {
+    height: 45px;
+}
+.contan {
+   
+    text-align: center;
+}
+.contan h2 {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.pof {
+    display: flex;
+    flex-direction: row;
+   
+    gap: 20px;
+}
+.text {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat( 2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    margin-top: 130px;
+}
+
+.pp {
+    padding: 10px;
+    
+}
+
+.pp p {
+    font-size: medium;
+}
+
+.text div {
+    font-size: 30px;
+}
+
+
+.video {
+    flex-shrink: 0;
+   width: 300px;
+  
+  
+}
+
+
+.video {
+    width: 100%;
+    height: auto;
+    order: -1;
+
+}
+
+.re {
+ 
+    display: flex;
+    flex-direction: column;
+}
+.tu {
+    background-color: #f5f5f5;
+    margin: 30px 0;
+}
+
+.ty h2 {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.uu {
+    display: grid;
+    grid-template-columns: repeat( 3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    margin-top: 170px;
+   
+}
+.u {
+    
+    padding: 20px;
+    text-align: center;
+    
+}
+.u div {
+    font-size: 30px;
+    margin: 10px;
+
+}
+.u img {
+    height: 80px;
+}
+.tu h2 {
+    text-align: center;
+    padding-top: 50px;
+}
+.lo {
+    width: 100%;
+    height: 180px;
+    background-color: #3f3e3e; 
+    color: #fff;
+    padding-top: 50px;
+    font-size: larger;
+}
+.contanar button {
+    background-color: #4caf50 !important ;
+    color: white !important;
+    padding: 8px 18px;
+    font-size: 14px;
+   transition:background-color 0.3s ease;
+   cursor: pointer;
+   border: 1px solid  #4caf50 ;
+   height: 50px;
+   width: 100px;
+}
+.kl
+{
+    width: 100%;
+    background-color:#f5f5f5 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;
+    margin-bottom: 50px;
+    padding-bottom: 70px;
+}
+.ss {
+    width: 90%;
+    text-align: center;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.car {
+    width: 12%;
+    height: 80px;
+    margin: 8px;
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    font-size: small;
+}
+@media (max-width: 600px) {
+    /* هنا هتكتبي التعديلات اللي تحلي بيها الموقع على الموبايل */
+  
+    body {
+      padding: 10px;
+    }
+  
+    .cont {
+      width: 100%;
+      flex-direction: column;
+    }
+  
+    img {
+      width: 100%;
+      height: auto;
+    }
+  
+    nav {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    /* أي عنصر تاني عايزة تصغريه أو تخليه تحت بعض */
+  }
